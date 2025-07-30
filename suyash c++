@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<iomanip.h>
+#include<conio.h>
+void main()
+{
+    float i=555.6666666666;
+    clrscr();
+    
+    cout<<setprecision(5)<<i;
+    getch();
+}
